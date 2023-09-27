@@ -1,4 +1,5 @@
 # Bryan Raul Perez Madrigal 3J LSC - Manejo de memoria 
+
 maxf= 3
 maxc= 5
 a= [[0.0]*maxc for_in range(maxf)]
