@@ -1,0 +1,15 @@
+Bryan Raul Perez Madrigal-3J-LSC
+
+NUM = 8
+nums = [0] * NUM
+total = 0
+
+for i in range(NUM):
+    try:
+        num = int(input("Por favor, introduzca el número: "))
+        nums[i] = num
+        total += num
+    except ValueError:
+        print("Entrada no válida. Ingrese un número válido.")
+
+print("El total de números es:", total)
