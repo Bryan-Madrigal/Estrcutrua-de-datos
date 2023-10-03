@@ -1,0 +1,16 @@
+# Bryan Raul Perez Madrigal 3J LSC 
+
+maxf = 3
+maxc = 5
+a = [[0.0] * maxc for _ in range(maxf)]
+
+# Leer array
+for f in range(maxf):
+    for c in range(maxc):
+        a[f][c] = float(input(f"Ingrese el valor para a[{f}][{c}]: "))
+
+# Escribir el array 
+for f in range(maxf):
+    for c in range(maxc):
+        print(a[f][c], end=" ")
+    print()  # Agregar una nueva línea después de cada fila
